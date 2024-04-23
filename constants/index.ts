@@ -46,7 +46,7 @@ export const Skill_data = [
     },
     {
       name: "Linked in",
-      src: "/Linkedin.svg",
+      src: "/LinkedIn.svg",
       link: "https://www.linkedin.com/in/bryanmunera/",
     },
     {
