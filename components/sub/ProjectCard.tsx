@@ -5,20 +5,11 @@ interface Props {
   src: string;
   title: string;
   description: string;
-  link: string; // Add a link property
 }
 
-const ProjectCard = ({ src, title, description, link }: Props) => {
-  // This function will be called when the card is clicked
-  const handleClick = () => {
-    window.open(link, '_blank');
-  };
-
+const ProjectCard = ({ src, title, description }: Props) => {
   return (
-    <div
-      className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] cursor-pointer"
-      onClick={handleClick} // Set the onClick handler here
-    >
+    <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61]">
       <Image
         src={src}
         alt={title}
