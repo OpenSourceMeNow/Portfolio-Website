@@ -5,22 +5,33 @@ interface Props {
   src: string;
   title: string;
   description: string;
-  link?: string;
+  link: string; // Add a link property
 }
 
 const ProjectCard = ({ src, title, description, link }: Props) => {
+  // This function will be called when the card is clicked
+  const handleClick = () => {
+    window.open(link, '_blank');
+  };
+
   return (
-    <a href={link} target="_blank" rel="noopener noreferrer" className="block">
-      <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61]">
-        <div className="w-full object-contain hover:scale-105 transition-transform duration-300">
-          <Image src={src} alt={title} width={1000} height={1000} />
-        </div>
-        <div className="relative p-4">
-          <h1 className="text-2xl font-semibold text-white">{title}</h1>
-          <p className="mt-2 text-gray-300">{description}</p>
-        </div>
+    <div
+      className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] cursor-pointer"
+      onClick={handleClick} // Set the onClick handler here
+    >
+      <Image
+        src={src}
+        alt={title}
+        width={1000}
+        height={1000}
+        className="w-full object-contain"
+      />
+
+      <div className="relative p-4">
+        <h1 className="text-2xl font-semibold text-white">{title}</h1>
+        <p className="mt-2 text-gray-300">{description}</p>
       </div>
-    </a>
+    </div>
   );
 };
 
