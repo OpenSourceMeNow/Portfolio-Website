@@ -133,12 +133,12 @@ export const Skill_data = [
     },
     {
       skill_name: "MongoDB",
-      Image: "/MongoDB.png",
+      Image: "/mongoDB.png",
       width: 40,
       height: 40,
     },
     {
-      skill_name: "Postgre",
+      skill_name: "Postgres",
       Image: "/Postgres.png",
       width: 70,
       height: 70,
