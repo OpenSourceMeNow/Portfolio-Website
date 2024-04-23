@@ -17,7 +17,7 @@ const Projects = () => {
           description="Built an Interactive and speedy website to showcase my myself and my skills."
         />
         <ProjectCard
-          src="/Catdog.jpeg"
+          src="/catdog.jpeg"
           title="Image Classification Project"
           description="built an image classification model using tensorflow and keras to classify images of cats and dogs."
         />
