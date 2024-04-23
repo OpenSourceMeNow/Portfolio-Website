@@ -42,14 +42,17 @@ export const Skill_data = [
     {
       name: "Github",
       src: "/Github.png",
+      link: "https://github.com/OpenSourceMeNow",
     },
     {
       name: "Linked in",
       src: "/Linkedin.svg",
+      link: "https://www.linkedin.com/in/bryanmunera/",
     },
     {
       name: "X",
       src: "/X.svg",
+      link: "https://twitter.com/EveryTeslaPro",
     },
   ];
   
