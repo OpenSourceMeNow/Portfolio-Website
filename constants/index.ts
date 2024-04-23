@@ -56,9 +56,6 @@ export const Skill_data = [
   
   
   export const Frontend_skill = [
-  ];
-  
-  export const Backend_skill = [
     {
       skill_name: "PyTorch",
       Image: "/PyTorch.png",
@@ -88,6 +85,39 @@ export const Skill_data = [
       Image: "/MatPlotLib.png",
       width: 180,
       height:180,
+    },
+  ];
+  
+  export const Backend_skill = [
+    {
+      skill_name: "Tensor Flow",
+      Image: "/huggingface.png",
+      width: 75,
+      height: 75,
+    },
+    {
+      skill_name: "SkLearn",
+      Image: "/streamlit.png",
+      width: 95,
+      height: 95,
+    },
+    {
+      skill_name: "MatPlotLib",
+      Image: "/tableu.png",
+      width: 180,
+      height:180,
+    },
+    {
+      skill_name: "MatPlotLib",
+      Image: "/aws.png",
+      width: 100,
+      height:100,
+    },
+    {
+      skill_name: "MatPlotLib",
+      Image: "/numpy.png",
+      width: 130,
+      height:130,
     },
   ];
   
@@ -141,8 +171,3 @@ export const Skill_data = [
       height: 70,
     },
   ];
-  
-  
-  
-  
-  
