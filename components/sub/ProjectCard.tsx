@@ -22,7 +22,7 @@ const ProjectCard = ({ src, title, description, link }: Props) => {
             rel="noopener noreferrer"
             className="mt-4 inline-block px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
           >
-            View Project
+            View on GitHub
           </a>
         )}
       </div>
