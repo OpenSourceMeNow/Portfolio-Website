@@ -133,7 +133,7 @@ export const Skill_data = [
     },
     {
       skill_name: "MongoDB",
-      Image: "/mongoDB.png",
+      Image: "/mongodb.png",
       width: 40,
       height: 40,
     },
@@ -145,7 +145,7 @@ export const Skill_data = [
     },
     {
       skill_name: "MySQL",
-      Image: "/MySQL.png",
+      Image: "/mysql.png",
       width: 80,
       height: 50,
     },
